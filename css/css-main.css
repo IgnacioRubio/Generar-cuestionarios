@@ -1,0 +1,126 @@
+/* PATTERN COLOR
+			tangerine :: #E37222;
+			teal :: #07889B;
+			powder :: #66B9BF;
+			tan :: #EEAA7B;
+			titles :: #F0F2EF;
+		*/
+
+*{
+	margin: 0;
+	padding: 0;
+}
+	
+body{
+	background-color: #E37222;
+}
+
+/* CABECERA */
+.cabecera{
+	background-color: #F0F2EF;
+	box-sizing: border-box;
+	height: 20vh;
+}
+
+.cabecera h1{
+	padding-left: 30px;
+	color: #07889B;
+	text-transform: uppercase;
+	font-size: 273%;
+}
+
+/* CONTENIDO PRINCIPAL */
+.contenedor{
+	float: left;
+	width: 40%;
+	height: 80vh;
+	box-sizing: border-box;
+}
+
+.div-preg button{
+	display: block;
+	margin-bottom: 15px;
+
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0px;
+	font-family: Arial;
+	color: #07889B;
+	font-size: 80%;
+	background: #F0F2EF;
+	padding: 10px 10px 10px 10px;
+	text-decoration: none;
+	width: 30%;
+}
+
+.div-preg button:hover{
+	background: #F0F2EF;
+	text-decoration: none;
+}
+
+.div-buttons, .div-preg{
+	box-sizing: border-box;
+	padding: 20px;
+}
+
+.div-buttons{
+	border-top: 5px solid #F0F2EF;
+}
+
+#bCrearPreg, #bGenerarTest{
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0px;
+	font-family: Arial;
+	color: #07889B;
+	font-size: 80%;
+	background: #F0F2EF;
+	padding: 10px 10px 10px 10px;
+	text-decoration: none;
+	width: 45%;
+	margin: auto;
+}
+
+#bCrearPreg:hover, #bGenerarTest:hover{
+	background: #F0F2EF;
+	text-decoration: none;
+}
+
+/* FORMULARIO */
+.cont-formulario{
+	float: left;
+	width: 60%;
+	background-color: #66B9BF;
+	height: 80vh;
+}
+
+#formPreg{
+	color: #F0F2EF;
+	padding-left: 10px;
+	visibility: hidden; /* visible;*/
+}
+
+#formPreg input, .select-form{
+	margin-top: 20px;
+}
+
+#formPreg label{
+	font-weight: bold;
+}
+
+#formPreg input[type=submit], #formPreg button{
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0px;
+	font-family: Arial;
+	color: #F0F2EF;
+	font-size: 80%;
+	background: #EEAA7B;
+	padding: 10px 10px 10px 10px;
+	text-decoration: none;
+}
+
+#formPreg input[type=submit]:hover, #formPreg button:hover{
+	background: #EEAA7B;
+	text-decoration: none
+}

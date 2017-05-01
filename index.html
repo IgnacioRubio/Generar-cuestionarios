@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+	<title>Generar cuestionario</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<script src="js/cuestionario.js"></script>
+
+	<link href="css/css-main.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+
+	<header class="cabecera">
+		<h1>Generador de cuestionarios</h1>
+	</header>
+
+	<div id="container" class="contenedor">
+		<div id="divPregs" class="div-preg">
+		</div>
+
+		<div id="divButtons" class="div-buttons">
+			<button id="bCrearPreg">Crear Pregunta</button>
+			<button id="bGenerarTest">Generar Test</button>
+		</div>
+	</div>
+
+	<div class="cont-formulario">
+		<form id="formPreg" onsubmit="return false;">
+			<p>	
+				<label for="preg" id="labelPreg"></script></label>
+				<input type="text" id="preg" placeholder="Ej: ¿Quién fue 1 + 1?" size="40">
+			</p>
+			<p>
+				<label for="respuesta1">Respuesta 1:</label>
+				<input type="text" id="respuesta1" size="25" >
+			</p>
+			<p>
+				<label for="respuesta2">Respuesta 2:</label>
+				<input type="text" id="respuesta2" size="25" >
+			</p>
+			<p>			
+				<label for="respuesta3">Respuesta 3:</label>
+				<input type="text" id="respuesta3" size="25" >
+			</p>
+			<p class="select-form">
+				<strong>Opción correcta:</strong> 
+				<select id="respCorrecta">
+					<option value="1">1</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+				</select>
+			</p>
+			<button id="subPregunta">Guardar pregunta</button>
+			<button id="btnCancelPreg">Cancelar pregunta</button>
+		</form>
+	</div>
+
+</body>
+
+</html>
+
+
+
